@@ -1,0 +1,54 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    padding:10px;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #F5F5F0,#E6D8C3);
+}
+
+.loginSection {
+    border: 1px solid #000000;
+}
+
+header {
+    width : 1140px;
+    height : 150px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+header .title {
+    text-align: center;
+}
+
+header .users{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.loginSection {
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.loginSection input {
+    width: 40%;
+    padding: 10px;
+}
+
+.loginSection button {
+    margin-top: 10px;
+}
